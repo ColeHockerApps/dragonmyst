@@ -6,7 +6,7 @@ struct GameScreen: View {
     @EnvironmentObject private var trail: TrailWeaver
     @EnvironmentObject private var echo: EchoReview
     @StateObject private var vm = GameViewModel()
-
+ 
     private var mainBackground: LinearGradient {
         LinearGradient(
             colors: [

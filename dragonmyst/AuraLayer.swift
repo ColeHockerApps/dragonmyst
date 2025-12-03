@@ -4,7 +4,7 @@ import SwiftUI
 struct AuraLayer: View {
     @State private var shimmerA: CGFloat = 0.0
     @State private var shimmerB: CGFloat = 0.0
-
+ 
     var body: some View {
         ZStack {
             Circle()

@@ -7,7 +7,7 @@ struct BoardContainer: View {
     @EnvironmentObject private var trail: TrailWeaver
     @EnvironmentObject private var paths: RealmPaths
     @StateObject private var vm = BoardViewModel()
-
+ 
     var body: some View {
         ZStack {
             theme.backgroundGradient

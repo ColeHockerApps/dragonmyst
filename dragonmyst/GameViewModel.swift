@@ -5,7 +5,7 @@ final class GameViewModel: ObservableObject {
     @Published var fadeIn: Bool = false
     @Published var logoScale: CGFloat = 0.9
     @Published var playPulse: Bool = false
-
+ 
     func onAppear() {
         withAnimation(.easeOut(duration: 0.4)) {
             fadeIn = true
